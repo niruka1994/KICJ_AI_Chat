@@ -92,8 +92,7 @@ st.markdown('<div class="custom-divider-rainbow"></div>', unsafe_allow_html=True
 # 유저의 설정 부분
 model_choice = st.selectbox(
     "AI Model (Optional)",
-    ('GPT-3.5-Turbo', 'GPT-4o', 'Gemini-1.5-Pro', 'Gemini-1.5-Flash', 'Claude-3.5-Sonnet', 'Claude-3-Sonnet',
-     'Claude-3-Opus', 'Cluade-3-Haiku'),
+    ('GPT-4o', 'Gemini-1.5-Pro', 'Claude-3.5-Sonnet'),
     help="GPT=범용성↑, Gemini=최신성↑, Claude=독해력↑"
 )
 
